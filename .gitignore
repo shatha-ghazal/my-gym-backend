@@ -1,0 +1,31 @@
+# .NET build output
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# VS Code local settings
+.vscode/
+
+# Local configuration and secrets
+appsettings.Development.json
+appsettings.Production.json
+.env
+.env.*
+!.env.example
+
+# Local logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Database backups
+*.backup
+*.dump
+*.bak
